@@ -10,7 +10,7 @@ export default function Intro(){
         <h1 className="text-6xl  font-bold text-blue-700">Welcome to LayOut</h1>
         <h2 className="text-3xl font-semibold  text-blue-300">A premium in sight and sound</h2>
         <button className="my-4 px-4 py-2 border-2 border-black rounded-lg
-text-white bg-blue-900">Learn More</button>
+text-white bg-blue-400 hover:bg-indigo-700" >Pess My</button>
       </div>
     </div>
   )
