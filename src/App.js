@@ -1,10 +1,12 @@
 import {useState} from "react";
 import "./App.css";
 import Intro from "./components/layouts/intro"
+import Box from "./components/layouts/box";
 
 export function App() {
   const ItemsArr = [
     <Intro />,
+    <Box />,
   ]
 
   const [active, setActive] = useState(<Intro />)
